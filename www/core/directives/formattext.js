@@ -41,7 +41,7 @@ angular.module('mm.core')
  *         Using this parameter will force display: block to calculate height better. If you want to avoid this use class="inline"
  *         at the same time to use display: inline-block.
  *
- * The following attributes has ben deprecated on version 3.2.1:
+ * The following attributes has ben deprecated on version 1.0.0:
  *     -shorten: If shorten is present, max-height="100" will be applied.
  *     -expand-on-click: This attribute will be discarded. The text will be expanded if shortened and fullview-on-click not true.
  */

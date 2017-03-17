@@ -1340,7 +1340,7 @@ angular.module('mm.core')
          * @param  {Mixed} versions Version or list of versions to check.
          * @return {Boolean}        True if greater or equal, false otherwise.
          * @description
-         * If a string is supplied (e.g. '3.2.1'), it will check if the site version is greater or equal than this version.
+         * If a string is supplied (e.g. '1.0.0'), it will check if the site version is greater or equal than this version.
          *
          * If an array of versions is supplied, it will check if the site version is greater or equal than the last version,
          * or if it's higher or equal than any of the other releases supplied but lower than the next major release. The last

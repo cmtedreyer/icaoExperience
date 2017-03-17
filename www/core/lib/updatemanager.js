@@ -347,7 +347,7 @@ angular.module('mm.core')
     }
 
     /**
-     * Calendar default notification time is configurable from version 3.2.1, and a new option "Default" is added.
+     * Calendar default notification time is configurable from version 1.0.0, and a new option "Default" is added.
      * All events that were configured to use the fixed default time should now be configured to use "Default" option.
      *
      * @return {Promise} Promise resolved when the events are configured.
@@ -390,7 +390,7 @@ angular.module('mm.core')
     }
 
     /**
-     * In version 3.2.1 we want the site config to be stored in each site if available.
+     * In version 1.0.0 we want the site config to be stored in each site if available.
      * Since it can be slow, we'll only block retrieving the config of current site, the rest will be in background.
      *
      * @return {Promise} Promise resolved when the config is loaded for the current site (if any).

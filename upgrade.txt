@@ -1,7 +1,7 @@
 This files describes API changes in the Moodle Mobile app,
 information provided here is intended especially for developers.
 
-=== 3.2.1 ===
+=== 1.0.0 ===
 
  * mmaGrades addon has been moved to core with mmGrades name (and derivatives).
  * $mmContentLinksDelegate has been refactored. Please see the new requirements in $mmContentLinksDelegateProvider#registerLinkHandler. Also, it is recommended to use the new $mmContentLinkHandlerFactory to create the content link handlers. The functions $mmContentLinksHelper#treatModuleIndexUrl and $mmContentLinksHelper#treatModuleGradeUrl have been modified to match the new behaviour.

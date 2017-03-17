@@ -509,7 +509,7 @@ angular.module('mm.core')
      * Check if the site version is greater than one or some versions.
      * This function accepts a string or an array of strings. If array, the last version must be the highest.
      *
-     * If a string is supplied (e.g. '3.2.1'), it will check if the site version is greater or equal than this version.
+     * If a string is supplied (e.g. '1.0.0'), it will check if the site version is greater or equal than this version.
      *
      * If an array of versions is supplied, it will check if the site version is greater or equal than the last version,
      * or if it's higher or equal than any of the other releases supplied but lower than the next major release. The last

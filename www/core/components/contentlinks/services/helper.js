@@ -101,7 +101,7 @@ angular.module('mm.core.contentlinks')
      *                                depending on this result.
      * @param  {Mixed}                All the params sent after checkAll will be passed to isEnabledFn.
      * @return {Promise}              Promise resolved with the list of supported sites.
-     * @deprecated since v3.2.1. Please use $mmUtil#filterEnabledSites instead.
+     * @deprecated since v1.0.0. Please use $mmUtil#filterEnabledSites instead.
      */
     self.filterSupportedSites = $mmUtil.filterEnabledSites;
 
